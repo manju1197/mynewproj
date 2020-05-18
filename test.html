@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<head>
+	<title>test</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+
+	<style>
+	h3{
+	color:tomato;
+	font-size: 30px;
+	font-style: initial;
+}
+.image{
+	border: dashed;
+	margin:25px 50px 50px;
+	padding: 20px 20px 20px 20px; 
+	float: left;
+}
+a:link{
+	color: red;
+	text-decoration: none;
+	}
+a:visited{
+	color: blue;
+	text-decoration: underline;
+	}
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+a:active{
+	color: pink;
+}
+ul.a{
+	list-style-type: square;
+	background-color: lightblue;
+
+}
+ol.b{
+	list-style-type: lower-alpha;
+	background-color: lightblue;
+}
+table{
+	width: 100%;
+	margin: 30px 30px 30px 50px;
+}
+th{
+	background-color:pink;
+	text-align: left;
+	padding: 10px;
+}
+tr.nth-child(even){
+   background-color: blue;
+   text-align: left;
+   padding: 10px;
+}
+div.relative{
+	position: relative;
+	width: 80%;
+	height: 80%;
+	border: 10px solid;
+}
+div.absolute{
+	position: relative;
+	width: 20%;
+	height: 200px;
+	border: 10px solid;
+	margin: 10px 0px 0px 200px;
+}
+div.sticky{
+	/*position: -webkit-sticky;*/
+	position: sticky;
+	background-color:pink;
+	border: 2px solid; 
+	top: 0px;
+	bottom: 2px;
+}
+
+.img{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	z-index: -1;
+}
+</style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+	<h1 style="border: 3px solid blue">hello <small><mark>world</mark></small><del>html!!</del></h1>
+	<h2 style="color:rgb(220,30,23);"> i am heading</h2>
+	<h3>i am heading </h3>
+	<p style="btn">
+		<img src="images/disneylogo.jpg" height="100" width="100"><br>
+		<cite>disney</cite><br>
+		<bdo dir="rtl">this statement will turn left to right</bdo><br>
+		<a href="https://www.google.com">google</a><br>
+		<p>enter input<kbd>_______</kbd></p>
+		<sub>Web development</sub><q> is the work involved</q><sup>in</sup>  developing a web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web-based internet applications, electronic businesses, and social network services.
+		<abbr title="world health organisation">WHO</abbr><br>
+		<iframe height="300" width="300" src="https://www.youtube.com/embed/watch?v=Uz99oGcYuN0"></iframe>
+		<table border="4">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Deepika</td>
+    <td>Mahendra</td>
+    <td>19</td>
+  </tr>
+  <tr>
+    <td>yukta</td>
+    <td>verma</td>
+    <td>34</td>
+  </tr>
+  <tr>
+    <td>yuwan</td>
+    <td>thakur</td>
+    <td>24</td>
+  </tr>
+</table>
+<form>
+	first name:
+	<input type="text" name="first name"><br>
+	last name:
+	<input type="text" name="Last name"><br>
+	Email:
+	<input type="Email" name="Email"><br>
+	password:
+	<input type="password" name="password"><br>
+	gender:
+	male<input type="radio" name="gender" value="male">
+	female<input type="radio" name="gender" value="female">
+	other<input type="radio" name="gender" value="other"><br>
+	courses:
+	java<input type="checkbox" name="courses">
+	python<input type="checkbox" name="courses">
+	angular<input type="checkbox" name="courses"><br>
+	login<input type="submit" name="login">
+	</form>
+<h1 id="h">css</h1>
+<div class="sticky">i am sticky</div>
+<p class="p1" style="background-color: tomato">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+<img src="images/disneylogo.jpg" width="150" height="150">
+<p><a href="www.google.com" class="btn" >google</a></p>
+<ul class="a">
+	<li>pen</li>
+	<li>pencil</li>
+	<li>eraser</li>
+</ul>
+<ol>
+	<li>pen</li>
+	<li>pencil</li>
+	<li>eraser</li>
+</ol>
+	</p>
+	<div class="relative">hello
+	<div class="absolute">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is <span class="a">attributed</span> to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</div></div>
+	<h1>this is heading</h1>
+	<div class="clearfix">
+	<p class="image"><img class="img12" src="images/banner.jpg" height="100" width="200" alt="banner-image">
+		Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p></div>
+		<h1>Navigation bar</h1>
+		<ul>
+			<li><a href="#home" class="active">home</a></li>
+			<li><a href="#about">about </a></li>
+			<li><a href="#contact"> contact</a></li>
+			<li><a href="#details">details</a></li>
+		</ul>
+		<abbr title="hello world">WH</abbr>
+		<div class="container-fluid">
+		<h1 class="text-muted text-center">bootstrap</h1>
+		<h2 class="display-2 text-danger">bootstrap</h2>
+		<h3 class="display-3 bg-primary " style="background-color: red !important;">bootstrap</h3>
+		<h4 class="display-4 "><mark>bootstrap</mark></h4>
+		<h5 class="bg-info">bootstrap</h5>
+		<h6>bootstrap</h6>
+		
+		this isfor<kbd>ctrl+f</kbd>save.
+
+		</div>
+
+		<br>
+		<br>
+		<a href="http://pages.litmus.com/l/31032/2018-02-12/f4skyc/31032/141638/LitmusLiveLondon2018.ics" class="cta gmail-hide">Save the date</a>
+		<br>
+	
+		<nav aria-lable="page navigation example">
+
+		<ul class="pagination animated fadeInDown">
+			<li class="page-item "><a href="#" class="page-link">previous</a></li>
+			<li class="page-item active"><a href="#" class="page-link">1</a></li>
+			<li class="page-item"><a href="#" class="page-link">2</a></li>
+			<li class="page-item"><a href="#" class="page-link">3</a></li>
+			<li class="page-item disabled"><a href="#" class="page-link">4</a></li>
+			<li class="page-item"><a href="#" class="page-link">5</a></li>
+			<li class="page-item"><a href="#" class="page-link">next</a></li>
+		</ul>
+	
+	</nav>
+	<div class="row">
+		<div class="col-6  animated infinite slideInLeft">
+			<div class="row">
+				<h3>hello world</h3>
+			</div>
+			<div class="row">
+				<p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+			</div>
+		</div>
+		<div class="col-6 animated slideInRight">
+			<img class="img12" src="images/banner.jpg" height="100" width="200" alt="banner-image">
+		</div>
+		
+	</div>
+	<br>
+	
+<br>
+<h3>enter name: </h3>
+<input type="text"  name="fullname" id="fullname">
+<button type="button" onclick="printname()">submit</button>
+
+<div class="container-fluid">
+	<h3 class="text-center">calculator</h3>
+	<lable>enter first no:</lable><br>
+	<input type="number" name="no1" id="no1"><br>
+	<lable>enter second no.:</lable><br>
+	<input type="number" name="no2" id="no2"><br>
+<button type="button" onclick="add()">add</button>
+<button type="button" onclick="sub()">sub</button>
+<button type="button" onclick="mul()">multiply</button>
+<button type="button" onclick="div()">div</button>
+
+<p>result</p>
+<p id="res" style="border: solid;width: 50px;height: 30px"></p>
+
+</div>
+	
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	
+	<script >
+	function add(){
+		var a = document.getElementById("no1").value;
+		var b = document.getElementById("no2").value;
+		var result = parseInt(a)+ parseInt(b);
+		console.log(result);
+		document.getElementById("res").innerHTML=result;
+
+	}
+		function sub(){
+		var a = document.getElementById("no1").value;
+		var b = document.getElementById("no2").value;
+		var result = parseInt(a)-parseInt(b);
+		console.log(result);
+		document.getElementById("res").innerHTML=result;
+
+	}
+		function mul(){
+		var a = document.getElementById("no1").value;
+		var b = document.getElementById("no2").value;
+		var result = parseInt(a)* parseInt(b);
+		console.log(result);
+		document.getElementById("res").innerHTML=result;
+
+	}
+		function div(){
+		var a = document.getElementById("no1").value;
+		var b = document.getElementById("no2").value;
+		var result = parseInt(a)/ parseInt(b);
+		console.log(result);
+		document.getElementById("res").innerHTML=result;
+
+	}
+	
+
+
+	</script>
+	<script >
+		let sample[]={1,2,3,4,5}; 
+	let array=[];
+	for (var i = 0;i<sample.length ; i++) {
+		array.push(sample[i]);
+	}
+	for (var i = 0; i <= array.length; i++) {
+		console.log
+	}
+	document.getElementById("res").innerHTML=array;
+	// array.push(20) ;
+	// array.push(30);
+	// array.push(40) ;
+	// array.push(50);
+
+	// for(var i= 0 ; i<array.length; i++){
+	// 	console.log(array[i]);
+	// }
+ //   console.log('pop')
+	// console.log(array.pop());
+	// console.log(array.pop());
+	// console.log(array.pop());
+	// console.log(array.pop());
+	// console.log(array.pop());
+	// console.log(array.pop());
+	
+
+	</script>
+
+</body>
+</html>
